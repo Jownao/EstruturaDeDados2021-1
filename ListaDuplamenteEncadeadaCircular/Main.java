@@ -1,6 +1,7 @@
 package ListaDuplamenteEncadeadaCircular;
 
-import Exercicio02_Anderson_ListaEncadeada.*;
+
+import Exercicio03_ListaDuplamenteEncadeada.Aluno;
 import ListaDuplamenteEncadeadaCircular.ListaDuplaCircular;
 
 
