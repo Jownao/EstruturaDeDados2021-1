@@ -61,7 +61,7 @@ public class Deque<T>{
     @SuppressWarnings("unchecked")
 	public T RecuperarInicio() {
 		if (this.quantidadeElementos == 0) {
-			throw new ArrayIndexOutOfBoundsException("A fila está vazia!");
+			throw new ArrayIndexOutOfBoundsException("A deque está vazia!");
 		} else {
 			return (T) this.primeiro.getElemento();
 		}
@@ -71,7 +71,7 @@ public class Deque<T>{
     @SuppressWarnings("unchecked")
 	public T RecuperarFim() {
 		if (this.quantidadeElementos == 0) {
-			throw new ArrayIndexOutOfBoundsException("A fila está vazia!");
+			throw new ArrayIndexOutOfBoundsException("A deque está vazia!");
 		} else {
 			return (T) this.ultimo.getElemento();
 		}
@@ -81,7 +81,7 @@ public class Deque<T>{
     public void AlterarInicio(T elemento) {
 		Celula nova = new Celula(elemento);
 		if (this.quantidadeElementos == 0) {
-			throw new ArrayIndexOutOfBoundsException("A fila está vazia!");
+			throw new ArrayIndexOutOfBoundsException("A deque está vazia!");
 		} else if (this.quantidadeElementos == 1) {
 			this.primeiro.setProxima(null);
 			this.primeiro = nova;
@@ -112,7 +112,7 @@ public class Deque<T>{
     //Remove o objeto do inicio do deque
     public void RemoverInicio() {
 		if (this.quantidadeElementos == 0) {
-			throw new ArrayIndexOutOfBoundsException("A fila está vazia!");
+			throw new ArrayIndexOutOfBoundsException("A deque está vazia!");
 		} else if (this.quantidadeElementos == 1) {
 			this.primeiro = null;
 			this.ultimo = null;
@@ -127,7 +127,7 @@ public class Deque<T>{
     //Remove o objeto do fim do deque
     public void RemoverFim() {
 		if (this.quantidadeElementos == 0) {
-			throw new ArrayIndexOutOfBoundsException("A fila está vazia!");
+			throw new ArrayIndexOutOfBoundsException("A deque está vazia!");
 		} else if (this.quantidadeElementos == 1) {
 			this.primeiro = null;
 			this.ultimo = null;

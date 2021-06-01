@@ -81,12 +81,12 @@ public class Main {
         System.out.println(deque);
 
         //Verificando o tamanho da fila
-        System.out.println("Tamanho da fila: "+deque.tamanho());
+        System.out.println("Tamanho do deque: "+deque.tamanho());
         
         //Limpando a fila
-        System.out.println("Limpando fila...");
+        System.out.println("Limpando deque...");
         deque.limpa();
-        System.out.println("Tamanho da fila apos limpeza: "+deque.tamanho());
+        System.out.println("Tamanho do deque apos limpeza: "+deque.tamanho());
         
         
         
