@@ -1,8 +1,8 @@
-package ListaDuplamenteEncadeadaCircular;
+package Exercicio04_ListaDuplamenteEncadeadaCircular;
 
 
 import Exercicio03_ListaDuplamenteEncadeada.Aluno;
-import ListaDuplamenteEncadeadaCircular.ListaDuplaCircular;
+import Exercicio04_ListaDuplamenteEncadeadaCircular.ListaDuplaCircular;
 
 
 public class Main {

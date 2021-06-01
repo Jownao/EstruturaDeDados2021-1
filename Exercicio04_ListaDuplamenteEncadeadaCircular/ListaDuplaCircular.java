@@ -1,5 +1,5 @@
 
-package ListaDuplamenteEncadeadaCircular;
+package Exercicio04_ListaDuplamenteEncadeadaCircular;
 
 public class ListaDuplaCircular<T> {
     private Celula primeira;
